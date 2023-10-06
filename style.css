@@ -1,0 +1,241 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.back_button {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+}
+
+.back_button img {
+    width: 40px; 
+    height: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #26401F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+/* index.html */
+
+.caixa_alimentos {
+    background-color: #5ABF56;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.caixa_alimentos h1 {
+    color: #FFFFFF;
+}
+
+.informacoes_alimentos {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes_usuario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.informacoes_usuario p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+.informacoes_alimentos a{
+    text-decoration: none;
+    color: black;
+}
+
+.informacoes_alimentos button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.informacoes_alimentos button:hover {
+    background-color: #26401F;
+    color: #FFFFFF;
+}
+
+.informacoes_alimentos button:focus {
+    outline: none;
+}
+
+
+
+@media screen and (max-width: 428px) {
+    main {
+        max-width: 90%; 
+        margin: 0 auto;
+        padding: 10px; 
+    }
+
+    .caixa_alimentos {
+        width: 90%; 
+        padding: 20px;
+    }
+
+    .informacoes_alimentos button {
+        padding: 8px 16px; 
+        font-size: 14px; 
+    }
+}
+
+
+
+/* maca.html */
+
+.caixa_maca {
+    background-color: #5ABF56;
+    border-radius: 10px;
+    padding: 40px;
+    width: 600px;
+    margin: auto;
+}
+
+.caixa_maca h1 {
+    color: #FFFFFF;
+}
+
+.caixa_maca h2 {
+    color: #FFFFFF;
+}
+
+.logo_maca img {
+    max-width: 100px;
+    height: auto;
+}
+
+.logo_maca{
+    text-align: center;
+}
+
+.informacoes_maca {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200, 200, 200);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.informacoes_maca h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.informacoes_maca p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.informacoes_maca ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.button_voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_voltar a{
+    text-decoration: none;
+    color: black;
+}
+
+.button_voltar button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button_voltar button:hover {
+    background-color: #26401F;
+    color: #FFFFFF;
+}
+
+.button_voltar button:focus {
+    outline: none;
+}
+
+
+
+
+@media screen and (max-width: 428px) {
+    .caixa_maca {
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .informacoes_maca {
+        padding: 20px; 
+    }
+
+    .button_voltar button {
+        font-size: 16px; 
+        padding: 8px 16px;
+    }
+}
+
