@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F2F2F2;
+    background-color: #3E588C;
 }
 
 header {
@@ -43,7 +43,7 @@ main {
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #26401F;
+    background-color: #1A1A26;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
@@ -58,7 +58,7 @@ h2 {
 /* index.html */
 
 .caixa_alimentos {
-    background-color: #5ABF56;
+    background-color: #1B62BF;
     border-radius: 10px;
     padding: 40px;
     text-align: center;
@@ -107,15 +107,13 @@ h2 {
 }
 
 .informacoes_alimentos button:hover {
-    background-color: #26401F;
+    background-color: #1A1A26;
     color: #FFFFFF;
 }
 
 .informacoes_alimentos button:focus {
     outline: none;
 }
-
-
 
 @media screen and (max-width: 428px) {
     main {
@@ -140,7 +138,7 @@ h2 {
 /* maca.html */
 
 .caixa_maca {
-    background-color: #5ABF56;
+    background-color: #1B62BF;
     border-radius: 10px;
     padding: 40px;
     width: 600px;
@@ -213,16 +211,13 @@ h2 {
 }
 
 .button_voltar button:hover {
-    background-color: #26401F;
+    background-color: #1A1A26;
     color: #FFFFFF;
 }
 
 .button_voltar button:focus {
     outline: none;
 }
-
-
-
 
 @media screen and (max-width: 428px) {
     .caixa_maca {
