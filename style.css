@@ -135,9 +135,7 @@ h2 {
 
 
 
-/* maca.html */
-
-.caixa_maca {
+.caixa_frutas {
     background-color: #1B62BF;
     border-radius: 10px;
     padding: 40px;
@@ -145,24 +143,24 @@ h2 {
     margin: auto;
 }
 
-.caixa_maca h1 {
+.caixa_frutas h1 {
     color: #FFFFFF;
 }
 
-.caixa_maca h2 {
+.caixa_frutas h2 {
     color: #FFFFFF;
 }
 
-.logo_maca img {
+.logo_frutas img {
     max-width: 100px;
     height: auto;
 }
 
-.logo_maca{
+.logo_frutas{
     text-align: center;
 }
 
-.informacoes_maca {
+.informacoes_frutas {
     display: flex;
     flex-direction: column;
     background-color: rgb(200, 200, 200);
@@ -170,20 +168,20 @@ h2 {
     border-radius: 10px;
 }
 
-.informacoes_maca h2 {
+.informacoes_frutas h2 {
     font-size: 20px;
     margin-bottom: 10px;
     color: black;
     text-align: center;
 }
 
-.informacoes_maca p {
+.informacoes_frutas p {
     font-size: 16px;
     margin-bottom: 10px;
     line-height: 1.4;
 }
 
-.informacoes_maca ul {
+.informacoes_frutas ul {
     list-style-type: disc;
     padding-left: 20px;
 }
@@ -220,12 +218,12 @@ h2 {
 }
 
 @media screen and (max-width: 428px) {
-    .caixa_maca {
+    .caixa_frutas {
         width: 100%; 
         padding: 20px; 
     }
 
-    .informacoes_maca {
+    .informacoes_frutas {
         padding: 20px; 
     }
 
